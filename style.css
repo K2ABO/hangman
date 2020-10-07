@@ -1,0 +1,49 @@
+.row {
+    background-color: rgb(29, 28, 26);
+}
+
+body {
+    background-image: url(wall.jpg);
+    background-size: cover;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+}
+
+.jumbotron,
+.card {
+    height: 500px;
+    background: linear-gradient(to right, rgb(107, 82, 82), rgb(43, 129, 28));
+}
+
+.notice {
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+}
+
+#btn {
+    display: flex;
+    justify-content: center;
+}
+
+h5,
+h1 {
+    
+    text-align: center;
+}
+
+.president_name {
+    text-decoration: underline;
+}
+
+.btn-secondary {
+    background: linear-gradient(to right, rgb(116, 25, 25), rgb(37, 2, 17))!important;
+    color: rgb(231, 226, 226);
+    outline-style: none;
+}
+
+.text-dark {
+    color:white!important;
+}
